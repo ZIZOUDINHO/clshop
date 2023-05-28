@@ -1,0 +1,114 @@
+/* Initialisation de la page */
+ * {
+     list-style: none;
+     text-decoration: none;
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+ .menu-lateral {
+     background-color: #000075;
+     height: 100%;
+     width: 250px;
+     top: 0;
+     left: 0;
+     position: fixed;
+ }
+ .profil img {
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     border: 10px solid #1A1A45;
+}
+.profil {
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+}
+.profil h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+.profil p {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-style: italic;
+}
+.menu-lateral ul li a{
+    color: whitesmoke;
+    display: block;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-bottom: 2px solid #333366;
+}
+.menu-lateral ul li a:hover{
+    color: #000075;
+    background-color: #fff;
+    border-right: 2px solid #333366;
+}
+.active {
+    color: #000075 !important;
+    background-color: #fff;
+    border-right: 2px solid #333366;
+}
+section {
+    width: calc(100% - 250px);
+    margin-left: 250px;
+}
+#entete {
+    background-color: #010135;
+    text-align: center;
+    padding: 30px;
+}
+#entete a{
+    font-size: 2em;
+    color: #fff;
+    font-weight: bold;
+}
+/*style de la bannière */
+#banner {
+    background-color: blue;
+    padding: 50px;
+}
+.titre{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.trait{
+    background-color: rgb(221, 221, 195);
+    padding: 5px;
+    width: 50%;
+    margin: 10px auto;
+}
+.btn{
+    text-align: center;
+}
+button {
+    font-size: 2em;
+    border: none;
+    border-radius: 10px;
+}
+/* Design de la section des articles */
+article{
+    display: flex;
+    padding: 20px;
+}
+article img{
+    width: 200px;
+    margin-right: 10px;
+}
+article p{
+    max-width: 600px;
+    font-size: 22px;
+}
+/* Design du pied de page */
+.pied{
+    background-color: #1b1A1A;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}

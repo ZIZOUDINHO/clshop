@@ -1,0 +1,40 @@
+body{
+	font-family: Arial, helvetica, sans-serif;
+	background-color: springgreen;
+	color: aliceblue;
+}
+
+.SYLLA{
+	background-color: rgb(20, 20, 120);
+	width: 500px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 20px;
+}
+form h2{
+	text-align: center;
+	font-size: 2em;
+}
+form label{
+	font-size: 20px;
+	font-style: italic;
+}
+form input{
+	width: 95%;
+	padding: 10px;
+	font-size: 20px;
+}
+.CBA{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+button{
+	width: 100%;
+	font-size: 1.8em;
+	background-color: #01012E;
+	color: red;
+	border: none;
+	padding: 20px;
+	border-radius: 10px;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ClShop Formulaire de connexion</title>
+	<!-- Liaison fichiers bootstrap -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid bg-secondary">
+		<!-- Debut section debut de navigation -->
+		<nav class="navbar navbar-expand-lg bg-primary">
+		  <div class="container-fluid">
+		    <a class="navbar-brand text-white" href="index.html">CLSHOP</a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+		        <li class="nav-item">
+		          <a class="nav-link active text-white" aria-current="page" href="index.html">ACCUEIL</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link text-white" href="blog.html">BLOG</a>
+		        </li>
+		        <li class="nav-item dropdown">
+		          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		            BOUTIQUE
+		          </a>
+		          <ul class="dropdown-menu">
+		            <li><a class="dropdown-item" href="shop.html">Shop</a></li>
+		            <li><a class="dropdown-item" href="electronic.html">Electronique</a></li>
+		            
+		           
+		          </ul>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link text-white" href="connexion.html">CONNEXION</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link text-white" href="inscription.html">INSCRIPTION</a>
+		        </li>
+		        
+		      </ul>
+		      <form class="d-flex" role="search">
+		        <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
+		        <button class="btn btn-outline-danger" type="submit">Chercher</button>
+		      </form>
+		    </div>
+		  </div>
+		</nav>
+		<!-- Fin section debut de navigation -->
+		<!-- Debut section formulaire -->
+		<div style="width: 500px; margin: auto;">
+			<form action="/action_page.php">
+			  <div class="mb-3 mt-3">
+			    <label for="email" class="form-label">Prénom:</label>
+			    <input type="text" class="form-control" id="email" placeholder="Entrer votre prénom" name="email">
+			  </div>
+			  <div class="mb-3">
+			    <label for="pwd" class="form-label">Nom:</label>
+			    <input type="text" class="form-control" id="pwd" placeholder="Enter votre nom" name="pswd">
+			  </div>
+			  <div class="mb-3">
+			    <label for="pwd" class="form-label">Date de naissance:</label>
+			    <input type="date" class="form-control" id="pwd" name="pswd">
+			  </div>
+			  <div class="mb-3">
+			    <label for="pwd" class="form-label">Lieu de naissance:</label>
+			    <input type="text" class="form-control" id="pwd" placeholder="Enter votre lieu de naissance" name="pswd">
+			  </div>
+			  <div class="mb-3">
+			    <label for="pwd" class="form-label">Mot de passe:</label>
+			    <input type="password" class="form-control" id="pwd" placeholder="Enter votre mot de passe" name="pswd">
+			  </div>
+			 
+			  <button type="submit" class="btn btn-primary">S'inscrire</button>
+			</form>
+		</div>
+		<!-- Fin section formulaire -->
+	</div>
+
+</body>
+</html>
